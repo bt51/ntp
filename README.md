@@ -20,13 +20,16 @@ Read more on composer here: http://getcomposer.org
 Getting the current time from an ntp server is simple.
 
 ``` php
-    use Bt51\NTP\Socket;
-    use Bt51\NTP\Client;
+<?php
 
-    $socket = new Socket('0.pool.ntp.org', 123); 
-    $ntp = new Client($socket);
-    $time = $ntp->getTime();
-    var_dump($time);
+use Bt51\NTP\Socket;
+use Bt51\NTP\Client;
+
+$socket = new Socket('0.pool.ntp.org', 123); 
+$ntp = new Client($socket);
+$time = $ntp->getTime();
+var_dump($time);
+
 ```
 
 The current time returned from the ntp server will be converted to a DateTime object. The timezone will always be UTC.
