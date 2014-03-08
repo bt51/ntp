@@ -1,0 +1,26 @@
+{
+	"name": "bt51/ntp",
+	"keywords": ["ntp", "ntp client", "network time protocol"],
+	"type": "library",
+	"license": "MIT",
+	"description": "PHP library for interacting with ntp servers",
+	"homepage": "https://github.com/bt51/ntp-php",
+    "config": {
+        "bin-dir": "bin"
+    },
+	"authors": [
+		{
+			"name": "Ben Tollakson",
+			"email": "ben.tollakson@gmail.com"
+		}
+	],
+	"autoload" : {
+        "psr-4" : { "Bt51\\NTP\\" : "src" }
+    },
+    "require": {
+		"php" : ">=5.3.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    }
+}
