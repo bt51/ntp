@@ -4,7 +4,7 @@
 	"type": "library",
 	"license": "MIT",
 	"description": "PHP library for interacting with ntp servers",
-	"homepage": "https://github.com/bt51/ntp-php",
+	"homepage": "https://github.com/bt51/ntp",
     "config": {
         "bin-dir": "bin"
     },
