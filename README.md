@@ -7,6 +7,7 @@ Package ntp is a simple NTP client. It supports NTP version 4 and SNTP. Note tha
 ------------
 
 Create a composer.json in your project
+
     {
         "require": {
             "bt51/ntp": "dev-master"
