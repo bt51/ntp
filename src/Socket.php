@@ -3,7 +3,7 @@
 /**
  * This file is part of NTP
  *
- * (c) Ben Tollakson <ben.tollakson@gmail.com>
+ * (c) Ben Tollakson <btollakson.os@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -17,7 +17,7 @@ namespace Bt51\NTP;
  * Opens up a udp socket. Reads and
  * writes data to the open socket.
  *
- * @author Ben Tollakson <ben.tollakson@gmail.com>
+ * @author Ben Tollakson <btollakson.os@gmail.com>
  * @see    http://php.net/manual/en/function.fsockopen.php
  */
 class Socket

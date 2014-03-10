@@ -3,7 +3,7 @@
 /**
  * This file is part of NTP
  *
- * (c) Ben Tollakson <ben.tollakson@gmail.com>
+ * (c) Ben Tollakson <btollakson.os@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -17,7 +17,7 @@ namespace Bt51\NTP;
  * This is the main interface for getting
  * the current time from an ntp server.
  *
- * @author Ben Tollakson <ben.tollakson@gmail.com>
+ * @author Ben Tollakson <btollakson.os@gmail.com>
  */
 class Client
 {
