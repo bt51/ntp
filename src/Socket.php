@@ -156,7 +156,8 @@ class Socket
                 $this->host, 
                 $this->port, 
                 $errno, 
-                $errstr, $this->timeout
+                $errstr,
+                $this->timeout
             );
 
             if (!$this->resource) {
